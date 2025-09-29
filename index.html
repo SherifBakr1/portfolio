@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sherif Bakr — Portfolio</title>
+  <meta name="description" content="Portfolio of Sherif Bakr — IEEE Senior Member. AI/ML engineer with LLMs, reinforcement learning, and large-scale systems experience across Motorola Solutions, 10a Labs, U.S. Army DEVCOM, and the University of Denver." />
+  <meta name="theme-color" content="#0f172a" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sherif Bakr — Portfolio" />
+  <meta property="og:description" content="AI/ML engineer with LLMs, RL, and production systems experience. Applying for Data Scientist roles." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.vercel.app" />
+  <meta property="og:image" content="/og-image.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sherif Bakr — Portfolio" />
+  <meta name="twitter:description" content="AI/ML engineer with LLMs, RL, and production systems experience." />
+  <meta name="twitter:image" content="/og-image.png" />
+
+  <!-- Tailwind via CDN for a simple static deploy -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Low-key animation */
+    .fade-in { animation: fadeIn 0.6s ease-out both; }
+    @keyframes fadeIn { from { opacity:0; transform: translateY(6px);} to { opacity:1; transform: none;} }
+    /* Print tweaks */
+    @media print { a[href]:after{ content: " (" attr(href) ")" } }
+  </style>
+
+  <!-- Schema.org Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sherif Bakr",
+    "jobTitle": "Machine Learning Engineer / Data Scientist",
+    "affiliation": "University of Denver",
+    "alumniOf": [{"@type":"CollegeOrUniversity","name":"University of Denver"},{"@type":"CollegeOrUniversity","name":"Minnesota State University, Mankato"}],
+    "sameAs": ["https://www.linkedin.com/in/your-handle","https://github.com/your-handle"],
+    "email": "mailto:sherif.bakr@du.edu"
+  }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 selection:bg-indigo-500 selection:text-white">
+  <!-- Nav -->
+  <header class="sticky top-0 z-50 backdrop-blur border-b border-white/10 bg-slate-950/70">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-semibold tracking-tight">Sherif Bakr</a>
+      <nav class="hidden sm:flex gap-6 text-sm">
+        <a href="#about" class="hover:text-indigo-300">About</a>
+        <a href="#experience" class="hover:text-indigo-300">Experience</a>
+        <a href="#ieee" class="hover:text-indigo-300">IEEE</a>
+        <a href="#education" class="hover:text-indigo-300">Education</a>
+        <a href="#contact" class="hover:text-indigo-300">Contact</a>
+      </nav>
+      <a href="/resume.pdf" class="text-sm px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500">Download Résumé</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="max-w-5xl mx-auto px-4 pt-10 pb-6 fade-in">
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">AI/ML Engineer & IEEE Senior Member</h1>
+    <p class="mt-3 text-slate-300 max-w-3xl">M.Sc. in Computer Science (all Ph.D. coursework completed, GPA 3.95/4.00). Dual B.Sc. & M.Sc. in Mechanical Engineering (GPA 3.91/4.00). I design and ship <span class="font-semibold">LLM</span> and <span class="font-semibold">reinforcement learning</span> systems at production scale. Applying for <span class="font-semibold">Data Scientist</span> roles (McKinsey/BCG X).</p>
+    <div class="mt-4 flex flex-wrap gap-3 text-sm">
+      <a href="mailto:sherif.bakr@du.edu" class="px-3 py-1.5 rounded-lg border border-white/10 hover:border-indigo-400">sherif.bakr@du.edu</a>
+      <a href="https://www.linkedin.com/in/your-handle" class="px-3 py-1.5 rounded-lg border border-white/10 hover:border-indigo-400">LinkedIn</a>
+      <a href="https://github.com/your-handle" class="px-3 py-1.5 rounded-lg border border-white/10 hover:border-indigo-400">GitHub</a>
+      <span class="px-3 py-1.5 rounded-lg border border-white/10">Denver, CO</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-xl font-semibold">Introduction</h2>
+    <p class="mt-3 text-slate-300">I bridge applied AI/ML engineering, reinforcement learning research, and large-scale system design with real-world deployments. I’ve delivered impact across industry (Motorola Solutions), AI security (10a Labs), defense (U.S. Army DEVCOM), and academia (University of Denver) while teaching graduate students as a TA for <em>Math for Data Science and AI</em>. I translate complex AI into measurable business value.</p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-xl font-semibold">Experience</h2>
+
+    <!-- 10a Labs -->
+    <article class="mt-4 rounded-2xl border border-white/10 p-5 bg-white/5">
+      <div class="flex items-baseline justify-between gap-4 flex-wrap">
+        <h3 class="font-semibold">10a Labs — Machine Learning Fellow</h3>
+        <span class="text-sm text-slate-400">Mar 2025 – Present · Denver, CO</span>
+      </div>
+      <p class="mt-2 text-slate-300">Frontier AI security fellowship focused on adversarial testing of cutting-edge LLMs from some of the largest AI companies in the world.</p>
+      <ul class="mt-3 list-disc pl-5 space-y-1.5 text-slate-200">
+        <li><span class="font-medium">Red-Teaming & Adversarial Attacks:</span> Designed jailbreaks, prompt-injection chains, and moderation bypasses uncovering weaknesses in <span class="italic">Fortune 10</span> client-facing models.</li>
+        <li><span class="font-medium">Multi-Agent Red-Team Platform:</span> Built automated adversarial testing with logging and replay for large-scale exploit evaluation.</li>
+        <li><span class="font-medium">Debate Simulator for Alignment:</span> Persona role-play (Gandhi, Machiavelli, Churchill) achieving <span class="font-semibold">88% persona consistency across 10 turns</span>.</li>
+        <li><span class="font-medium">Stakeholder Impact:</span> Delivered quantitative robustness reports and ablation studies informing executive decisions on safe AI deployment.</li>
+      </ul>
+    </article>
+
+    <!-- Motorola Solutions -->
+    <article class="mt-4 rounded-2xl border border-white/10 p-5 bg-white/5">
+      <div class="flex items-baseline justify-between gap-4 flex-wrap">
+        <h3 class="font-semibold">Motorola Solutions — Graduate Software Engineering Fellow</h3>
+        <span class="text-sm text-slate-400">Jun 2025 – Sep 2025 · Westminster, CO</span>
+      </div>
+      <p class="mt-2 text-slate-300">Architected and deployed a production-ready multilingual voice‑AI Concierge system powering <span class="font-semibold">hundreds of thousands</span> of real‑world intercom sessions.</p>
+      <ul class="mt-3 list-disc pl-5 space-y-1.5 text-slate-200">
+        <li><span class="font-medium">Problem & Impact:</span> Reduced a <span class="font-semibold">30% baseline failure rate</span> (accents/noise/STT errors) to near‑zero with only <span class="font-semibold">+12% latency</span>.</li>
+        <li><span class="font-medium">System Design & Deployment:</span> LLM‑powered digital twin of the front desk across edge devices and cloud microservices.</li>
+        <li><span class="font-medium">Technology Integration:</span> Real‑time low‑latency streaming via LiveKit WebRTC; observability for latency, token cost, and memory.</li>
+        <li><span class="font-medium">Outcome:</span> Transformed visitor access workflows into a scalable, conversational AI experience with end‑to‑end ownership.</li>
+      </ul>
+    </article>
+
+    <!-- Army DEVCOM -->
+    <article class="mt-4 rounded-2xl border border-white/10 p-5 bg-white/5">
+      <div class="flex items-baseline justify-between gap-4 flex-wrap">
+        <h3 class="font-semibold">U.S. Army DEVCOM Army Research Lab — Research Intern</h3>
+        <span class="text-sm text-slate-400">Jun 2023 – Sep 2023 · Adelphi, MD</span>
+      </div>
+      <p class="mt-2 text-slate-300">Multi‑robot reinforcement learning (MARL) under bandwidth and latency constraints, moving from sim to field.</p>
+      <ul class="mt-3 list-disc pl-5 space-y-1.5 text-slate-200">
+        <li><span class="font-medium">Point Cloud Compression:</span> Cut bandwidth by <span class="font-semibold">~45%</span> and latency by <span class="font-semibold">~30%</span>, enabling real‑time navigation.</li>
+        <li><span class="font-medium">Teammate‑Aware RL:</span> Improved task success by <span class="font-semibold">~20%</span> in simulation and field tests.</li>
+        <li><span class="font-medium">Collaboration:</span> Co‑authored IEEE RO‑MAN 2024 work on teammate‑aware search strategies; integrated results into defense stacks.</li>
+      </ul>
+    </article>
+
+    <!-- University of Denver -->
+    <article class="mt-4 rounded-2xl border border-white/10 p-5 bg-white/5">
+      <div class="flex items-baseline justify-between gap-4 flex-wrap">
+        <h3 class="font-semibold">University of Denver — Graduate Research & Teaching Assistant</h3>
+        <span class="text-sm text-slate-400">Sep 2022 – Present · Denver, CO</span>
+      </div>
+      <ul class="mt-3 list-disc pl-5 space-y-1.5 text-slate-200">
+        <li><span class="font-medium">Research:</span> MARL environments with dynamic goals and coordination achieving <span class="font-semibold">~25% faster convergence</span> and <span class="font-semibold">~18% higher task success</span>.</li>
+        <li><span class="font-medium">Integration:</span> Incorporated into Army navigation stacks to improve real‑time decision‑making efficiency.</li>
+        <li><span class="font-medium">Teaching:</span> TA for <em>Math for Data Science and AI</em>, mentoring grads in stats, linear algebra, and applied ML.</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- IEEE -->
+  <section id="ieee" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-xl font-semibold">IEEE — Denver Chapter Leadership</h2>
+    <p class="mt-3 text-slate-300">As an <span class="font-semibold">IEEE Senior Member</span> — a distinction held by fewer than <span class="font-semibold">10%</span> of IEEE’s 400,000+ members — I serve as <span class="font-semibold">Treasurer</span> for the Denver Section Chapter, managing finances and supporting events. I also lead a weekly <span class="font-semibold">LLM study group</span> where we review new publications, replicate experiments, and build side projects (e.g., lightweight RAG systems, AI‑powered monitoring tools), fostering a collaborative hub for practitioners to stay ahead of rapid advances.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-xl font-semibold">Education</h2>
+    <ul class="mt-3 space-y-2 text-slate-200">
+      <li>
+        <div class="flex items-baseline justify-between gap-4 flex-wrap">
+          <span class="font-medium">University of Denver — M.Sc. Computer Science</span>
+          <span class="text-sm text-slate-400">GPA 3.95/4.00 · All Ph.D. coursework completed · Sep 2025</span>
+        </div>
+      </li>
+      <li>
+        <div class="flex items-baseline justify-between gap-4 flex-wrap">
+          <span class="font-medium">Minnesota State University, Mankato — M.Sc., B.Sc., Mechanical Engineering</span>
+          <span class="text-sm text-slate-400">GPA 3.91/4.00 · Dec 2019</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-xl font-semibold">Contact</h2>
+    <div class="mt-3 grid sm:grid-cols-2 gap-4">
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="rounded-2xl border border-white/10 p-5 bg-white/5">
+        <div class="grid gap-3">
+          <input name="name" required placeholder="Your name" class="px-3 py-2 rounded-lg bg-slate-900/60 border border-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+          <input type="email" name="email" required placeholder="Email" class="px-3 py-2 rounded-lg bg-slate-900/60 border border-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+          <textarea name="message" rows="4" required placeholder="Message" class="px-3 py-2 rounded-lg bg-slate-900/60 border border-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+          <button class="justify-self-start px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500">Send</button>
+        </div>
+      </form>
+      <div class="rounded-2xl border border-white/10 p-5 bg-white/5">
+        <p class="text-slate-300">Email: <a href="mailto:sherif.bakr@du.edu" class="underline underline-offset-4">sherif.bakr@du.edu</a></p>
+        <p class="text-slate-300 mt-2">Phone: <a href="tel:+19012464740" class="underline underline-offset-4">+1‑901‑246‑4740</a></p>
+        <p class="text-slate-300 mt-2">LinkedIn: <a class="underline underline-offset-4" href="https://www.linkedin.com/in/your-handle">linkedin.com/in/your-handle</a></p>
+        <p class="text-slate-300 mt-2">GitHub: <a class="underline underline-offset-4" href="https://github.com/your-handle">github.com/your-handle</a></p>
+        <p class="text-slate-300 mt-2">Location: Denver, CO</p>
+        <p class="text-slate-400 text-sm mt-4">Tip: replace <span class="italic">your-handle</span> links and <span class="italic">Formspree</span> form-id before deploying.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/10">
+    <div class="max-w-5xl mx-auto px-4 py-6 text-sm text-slate-400">© <span id="y"></span> Sherif Bakr · Built with Tailwind · Deployed on Vercel</div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
